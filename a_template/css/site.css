@@ -129,8 +129,8 @@ img {
 
 .thumb img {
   width: 200%;
-  margin-left: -100%;
-  margin-top: -100%;
+  margin-left: -50%;
+  margin-top: -50%;
   cursor: pointer; }
 
 @media all and (max-width: 800px) {
