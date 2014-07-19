@@ -124,7 +124,8 @@ img {
 .fullImage img {
   width: 100%; }
 
-.thumbImage .thumb:last-child {
+.thumbImage .thumb:last-child,
+.thumbImage .thumb.last {
   margin-right: 0; }
 
 .thumb img {
