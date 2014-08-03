@@ -20,13 +20,14 @@ body {
 
 h1 {
   font-size: 2em;
-  line-height: 1;
+  line-height: 1.2;
   margin: 0;
   font-weight: normal;
   margin-bottom: 1em;
   background: #666;
   padding: 10px;
-  color: #fff; }
+  color: #fff;
+  text-align: center; }
 
 h1.title {
   background: none;
