@@ -149,8 +149,9 @@ img {
   position: absolute;
   color: #000;
   font-weight: bold;
-  padding: 10px 20px;
-  z-index: 1; }
+  padding: 8px 20px;
+  z-index: 1;
+  font-size: 0.9375em; }
 
 .thumbImage .thumb:last-child,
 .thumbImage .thumb.last {
