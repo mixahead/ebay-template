@@ -138,7 +138,8 @@ img {
   width: 100%; }
 
 .fullImage a {
-  display: block; }
+  display: block;
+  margin-bottom: 10px; }
 
 .thumbImage .thumb:last-child,
 .thumbImage .thumb.last {
