@@ -1,165 +1,58 @@
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table; }
+/*
+Syntax error: Invalid CSS after "  position:": expected pseudoclass or pseudoelement, was " absolute;"
+        on line 158 of site.scss
 
-.clearfix:after {
-  clear: both; }
+153: }
+154: .fullImage a div{
+155:   bottom: 0;
+156:   right: 0;
+157:   background:rgba(255,255,255,0.8)
+158:   position: absolute;
+159:   color:#000;
+160:   font-weight: bold;
+161:   padding:10px 20px;
+162:   z-index:1;
+163: }
 
-.clearfix {
-  *zoom: 1; }
-
-html {
-  font-size: 16px; }
-
-body {
-  font-size: 100%;
-  color: #333;
-  line-height: 1.4;
-  font-family: Arial,sans-serif; }
-
-h1 {
-  font-size: 2em;
-  line-height: 1.3;
-  margin: 0;
-  font-weight: bold;
-  margin-bottom: 1em;
-  background: #666;
-  padding: 10px;
-  color: #fff;
-  text-align: center; }
-
-h1.title {
-  background: none;
-  color: #000;
-  padding: 0;
-  font-weight: normal; }
-
-h2 {
-  font-size: 1.4em;
-  font-weight: normal;
-  line-height: 1;
-  margin-bottom: 12px;
-  margin-top: 0;
-  padding-bottom: 5px;
-  border-bottom: 1px solid green;
-  color: green; }
-
-h3 {
-  font-size: 2.625em;
-  margin: 0 0 0.1em;
-  font-weight: normal;
-  line-height: 1; }
-
-h4 {
-  font-size: 1.25em;
-  margin: 0;
-  font-weight: bold;
-  line-height: 1; }
-
-p {
-  font-size: 0.9375em;
-  margin: 0 0 2em;
-  font-weight: normal; }
-
-.small {
-  color: #999;
-  margin: 80px 0; }
-
-a,
-a:link {
-  text-decoration: underline;
-  color: #00AFF1; }
-
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
-  color: #333; }
-
-li {
-  color: #333;
-  font-size: 0.9375em;
-  margin-left: 18px; }
-
-ul {
-  margin: 0 0 2em;
-  list-style: circle;
-  padding: 0; }
-
-ul li:last-child {
-  border: 0 !important; }
-
-.floatRight {
-  float: right; }
-
-.floatLeft {
-  float: left; }
-
-.animate {
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s; }
-
-img {
-  vertical-align: top; }
-
-#wrapper {
-  margin: 0 auto;
-  width: 920px;
-  padding: 20px;
-  background: #f0f0f0;
-  min-height: 600px; }
-
-.imageContainer {
-  float: left;
-  width: 400px;
-  margin-right: 30px; }
-
-.textContainer {
-  float: left;
-  width: 490px;
-  position: relative; }
-
-.thumb {
-  width: 120px;
-  height: 120px;
-  overflow: hidden;
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  position: relative; }
-
-.fullImage {
-  margin-bottom: 40px; }
-
-.fullImage img {
-  width: 100%; }
-
-.fullImage a {
-  display: block;
-  margin-bottom: 10px; }
-
-.thumbImage .thumb:last-child,
-.thumbImage .thumb.last {
-  margin-right: 0; }
-
-.thumb img {
-  width: 200%;
-  margin-left: -50%;
-  margin-top: -50%;
-  cursor: pointer; }
-
-.over {
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.4);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1; }
-
-@media all and (max-width: 800px) {
-  body {
-    font-size: 80%; } }
+Backtrace:
+site.scss:158
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:1312:in `expected'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:1248:in `expected'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:1228:in `expr!'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:914:in `pseudo'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:794:in `simple_selector_sequence'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:759:in `_selector'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:727:in `selector'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:710:in `selector_sequence'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:632:in `ruleset'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:697:in `block in declaration_or_ruleset'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:1288:in `call'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:1288:in `rethrow'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:698:in `declaration_or_ruleset'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:660:in `block_child'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:652:in `block_contents'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:641:in `block'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:634:in `ruleset'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:659:in `block_child'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:652:in `block_contents'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:116:in `stylesheet'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:41:in `parse'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:409:in `_to_tree'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:274:in `render'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:378:in `update_stylesheet'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `each'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/exec.rb:489:in `watch_or_update'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/exec.rb:346:in `process_result'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/exec.rb:43:in `parse'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/exec.rb:22:in `parse!'
+C:/Development/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/bin/scss:13:in `<top (required)>'
+C:/Development/Ruby200-x64/bin/scss:23:in `load'
+C:/Development/Ruby200-x64/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"  position:\": expected pseudoclass or pseudoelement, was \" absolute;\"\A         on line 158 of site.scss\A \A 153: }\A 154: .fullImage a div{\A 155:   bottom: 0;\A 156:   right: 0;\A 157:   background:rgba(255,255,255,0.8)\A 158:   position: absolute;\A 159:   color:#000;\A 160:   font-weight: bold;\A 161:   padding:10px 20px;\A 162:   z-index:1;\A 163: }"; }

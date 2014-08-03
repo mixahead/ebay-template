@@ -149,6 +149,17 @@ img{
 .fullImage a{
   display: block;
   margin-bottom: 10px;
+  position: relative;
+}
+.fullImage a div{
+  bottom: 0;
+  right: 0;
+  background:rgba(255,255,255,0.8)
+  position: absolute;
+  color:#000;
+  font-weight: bold;
+  padding:10px 20px;
+  z-index:1;
 }
 .thumbImage .thumb:last-child,
 .thumbImage .thumb.last{
